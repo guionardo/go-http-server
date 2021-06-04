@@ -1,0 +1,12 @@
+version: "3"
+services:
+  proxy:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - FOLDER=/html
+      - GIN_MODE=release
+    volumes:
+      - ./html:/html
