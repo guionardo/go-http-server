@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/akamensky/argparse v1.3.0
-	github.com/gin-gonic/gin v1.7.2
+	github.com/gin-gonic/gin v1.9.0
 )
